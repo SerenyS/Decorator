@@ -19,4 +19,12 @@ public class BasicCharacter implements GameCharacter {
     public double getMight() {
         return might;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMight(double might) {
+        this.might = might;
+    }
 }
